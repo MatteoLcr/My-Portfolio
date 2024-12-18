@@ -1,0 +1,21 @@
+.boxModale1{
+    position: absolute;
+    height: 700px;
+    width: 1500px;
+    top: 100px;
+    left: 300px;
+    z-index: 1060;
+    background-color: rgb(255, 0, 0);
+}
+.boxModale{
+    position: absolute;
+    height: 700px;
+    width: 1300px;
+    top: 100px;
+    left: 300px;
+    z-index: 1050;
+    background-color: rgb(0, 255, 34);
+}
+.internoModale{
+    
+}

@@ -1,0 +1,177 @@
+.topBtn{
+ background-color: transparent;
+ color: white;
+ border: none;
+ font-family: "Bricolage Grotesque", sans-serif;
+ font-optical-sizing: auto;
+ font-size: 30px;
+ font-weight: 400;
+ font-style: normal;
+ width: 400px;
+ animation: fade-down 1s ease-in-out;
+}
+.topBtn2{
+ background-color: transparent;
+ color: white;
+ border: none;
+ font-family: "Bricolage Grotesque", sans-serif;
+ font-optical-sizing: auto;
+ font-size: 30px;
+ font-weight: 400;
+ font-style: normal;
+ width: 400px;
+ animation: fade-down 1s ease-in-out;
+}
+
+@keyframes fade-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-30px) ;
+    }100% {
+      opacity: 1;
+      transform: translateY(0);     
+    }
+  }
+
+
+
+.linksContainer {
+    height: 80px;
+    background-color:#1a1d2265;
+    animation: appears 0.5s ease-in-out;
+}
+@keyframes appears{
+    0% {
+      opacity: 0;
+      transform: opacity(0);
+    }
+    100% {
+      opacity: 1;
+      transform: opacity(1);
+    }
+  }
+
+
+
+
+.Box1 {
+    height: 200px;
+    margin-right: 200px;
+}
+
+.itemBox1 {
+    height: 130px;
+    background-color: red;
+}
+.btnItemBox {
+    background-color: transparent;
+    border: none;
+    height: 35px;
+}
+
+.Box1 h3 {
+    color: rgb(223, 223, 223);
+}
+
+.itemBox1 h5 {
+    color: white;
+    height: 25px;
+    transition: 0s;
+}
+
+.itemBox1 h5:hover {
+    border-bottom: 3px solid tomato;
+}
+
+
+.Box2 {
+    margin-right: 200px;
+}
+
+.Box2 h3 {
+    color: rgb(223, 223, 223);
+}
+
+.itemBox2 h5 {
+    color: white;
+    height: 30px;
+    transition: 0s;
+}
+
+.itemBox2 h5:hover {
+    border-bottom: 3px solid tomato;
+}
+
+
+.Box3 {
+    height: 85px;
+}
+
+.Box3 h3 {
+    color: rgb(223, 223, 223);
+}
+
+.itemBox3 h5 {
+    color: white;
+    height: 30px;
+    transition: 0s;
+}
+
+.itemBox3 h5:hover {
+    border-bottom: 3px solid tomato;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.mailBoxContainer{
+    height: 210px;
+    width: 400px;
+}
+.socialBoxContainer{
+    height: 210px;
+    width: 400px;
+}
+.formTxt{
+    color: tomato;
+}
+
+.form-control{
+    background-color: rgba(255, 255, 255, 0.423);
+}
+.offcanvas-header{
+    padding: 0px;   
+} 
+
+
+.bi-linkedin {
+    color: tomato;
+    font-size: 35px;
+}
+
+.bi-github {
+    color: tomato;
+    font-size: 35px;
+}
+
+.offcanvas.showing,
+.offcanvas.show:not(.hiding) {
+    margin-top: 80px;
+    transform: none;
+    transition: 0s;
+    background-image: url('../../public/storage/immagini/offcanvas_bg_blu.png');
+    background-size: cover;
+    background-color: #1A1D22;
+    /* background-color: #7f3123; */
+}
+
+.offcanvas {
+
+    --bs-offcanvas-transition: transform 0s linear;
+    --bs-offcanvas-zindex: 1045;
+}
+
+
